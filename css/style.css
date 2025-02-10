@@ -12,6 +12,7 @@ header {
 
 .columns {
     display: flex;
+    padding-top: 19px;
 }
 
 .column {
@@ -31,4 +32,9 @@ header {
     background: #B6A28E;
     height: 100%;
     width: 20%;
+}
+
+.column input {
+    width: 400px;
+    height: 65px;
 }
