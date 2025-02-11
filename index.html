@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <div class="wrapper">
-        <header>
-            <h1 style="padding: 15px;">Kalkulator Suhu</h1>
-        </header>
-
-        <section class="columns">
-            <div class="column">
-                <h5>Left</h5>
+        <h1 style="text-align-last: center;padding-left: 10px;">Kalkulator Suhu</h1>
+        <div class="columns">
+            <div class="input">
+                <label for="temperature">Masukkan Suhu:</label>
+                <input type="number" id="temperature" name="temperature" placeholder="20" required>
             </div>
-            <div class="column">
-                <h5 style="text-align-last: center;padding-left: 10px;">Masukkan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik untuk tombol konversi untuk mendapatkan hasil Konversi dalam bentuk Fahrenheit (&deg;F)
-                </h5>
+            <div class="input-group">
+                <label for="fromUnit">Dari:</label>
+                <select id="fromUnit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="toUnit">Ke:</label>
+                <select id="toUnit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
 
-                <h4 style="margin: 0px;">Celcius (&deg;C):</h4>
-                <input type="text" id="Celcius" placeholder="Celcius">
-                <br>
-                <button id="convert">Konversi</button>
-                <button id="reset">Reset</button>
-                <button id="reverse">Reverse</button>
-
-                <br>
-                <h4 style="margin: 0px; margin-top: 25px;">Fahrenheit (&deg;F):</h4>
-                <input type="text" id="Fahrenheit" placeholder="Fahrenheit">
-                <br>
-
-                <br>
-                <h5 style="margin: 0px; margin-top: 10px;">Cara Kalkulasi:</h5>
-                <input type="text">
-
-                <br>
-                <br>
-                <a href="">Fahrenheit ke Celcius</a>
+                <button>Konversi</button>
 
                 <br>
-                <h3>Cara Konversi Celcius ke Fahrenheit</h3>
                 <hr>
-            </div>
-            <div class="column">
-                <h5>Right</h5>
-            </div>
-        </section>
+                <h3>Penjelasan</h3>
+                
+        </div>
     </div>
 
 </body>
