@@ -12,14 +12,13 @@
         <div class="columns">
             <div class="input">
                 <label for="temperature">Masukkan Suhu:</label>
-                <input type="number" id="temperature" name="temperature" placeholder="20" required>
+                <input type="number" id="temperature" name="temperature" placeholder="" required>
             </div>
             <div class="input-group">
                 <label for="fromUnit">Dari:</label>
                 <select id="fromUnit">
                     <option value="celsius">Celsius (°C)</option>
                     <option value="fahrenheit">Fahrenheit (°F)</option>
-                    <option value="kelvin">Kelvin (K)</option>
                 </select>
             </div>
             <div class="input-group">
@@ -27,18 +26,18 @@
                 <select id="toUnit">
                     <option value="celsius">Celsius (°C)</option>
                     <option value="fahrenheit">Fahrenheit (°F)</option>
-                    <option value="kelvin">Kelvin (K)</option>
                 </select>
             </div>
 
-                <button>Konversi</button>
+                <button type="button" onclick="convertTemperature">Konversi</button>
 
                 <br>
                 <hr>
-                <h3>Penjelasan</h3>
-                
+                <label for="penjelasan">Penjelasan</label>
+                <p id="penjelasan"></p>                
         </div>
     </div>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
