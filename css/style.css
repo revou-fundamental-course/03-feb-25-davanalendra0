@@ -1,5 +1,18 @@
 body {
-    background-color: #F2B28C;
+    background-color: grey;
+}
+
+.wrapper {
+    background-color: rgb(252, 252, 252);
+    padding: 2rem;
+    margin-left: 25%;
+    width: 90%; 
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .konten {
