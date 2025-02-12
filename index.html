@@ -9,24 +9,28 @@
 <body>
     <div class="wrapper">
         <h1 style="text-align-last: center;padding-left: 10px;">Kalkulator Suhu</h1>
-        <div class="columns">
-            <div class="input">
-                <label for="temperature">Masukkan Suhu:</label>
-                <input type="number" id="temperature" name="temperature" placeholder="" required>
-            </div>
-            <div class="input-group1">
-                <label for="fromUnit">Dari:</label>
-                <select id="fromUnit">
-                    <option value="celsius">Celsius (°C)</option>
-                    <option value="fahrenheit">Fahrenheit (°F)</option>
-                </select>
-            </div>
-            <div class="input-group2">
-                <label for="toUnit">Ke:</label>
-                <select id="toUnit">
-                    <option value="celsius">Celsius (°C)</option>
-                    <option value="fahrenheit">Fahrenheit (°F)</option>
-                </select>
+        <div class="konten">
+            <div class="konten-input">
+                <div class="input">
+                    <label for="temperature">Masukkan Suhu:</label>
+                    <input type="number" id="temperature" name="temperature" placeholder="" required>
+                </div>
+                <div class="input-group1">
+                    <label for="fromUnit">Dari:</label>
+                    <select id="fromUnit">
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+                </div>
+                <div class="input-group2">
+                    <label for="toUnit">Ke:</label>
+                    <select id="toUnit">
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+                </div>
             </div>
             <div class="input-hasil">
                 <label for="hasil" class="hasil">Hasil:</label>
@@ -34,7 +38,7 @@
             </div>
 
                 <br>
-                <button type="button" onclick="convertTemperature">Konversi</button>
+                <button type="button" onclick="convert">Konversi</button>
 
                 <br>
                 <label for="penjelasan">Penjelasan</label>

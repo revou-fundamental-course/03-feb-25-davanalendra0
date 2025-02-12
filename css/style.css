@@ -2,7 +2,7 @@ body {
     background-color: #F2B28C;
 }
 
-.columns {
+.konten {
     justify-content: center;
     display: grid;
 }
@@ -10,6 +10,25 @@ body {
 .input {
     gap: 30px;
     display: flex;
+}
+
+select, input {
+    padding: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    font-family: Lato;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+input:focus-within {
+    box-shadow: 0px 4px 10px gray;
+}
+
+select:hover {
+    box-shadow: 0px 4px 10px gray;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.01);
 }
 
 .input-group1{
@@ -32,6 +51,13 @@ body {
 
 button {
     margin-top: 5px;
+    border-radius: 3px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 4px 10px #F9B572;
 }
 
 #penjelasan {
