@@ -35,17 +35,15 @@
                     </select>
                 </div>
             </div>
-            <div class="input-hasil">
-                <label for="hasil" class="hasil">Hasil:</label>
-                <input type="text" id="hasil" readonly class="bar-hasil">
-            </div>
 
                 <br>
                 <button type="button" onclick="convert">Konversi</button>
 
-                <br>
-                <label for="penjelasan">Penjelasan</label>
-                <p id="penjelasan"></p>                
+                <div id="result" class="hidden">
+                    <h2><i class="fas fa-thermometer-half"></i> Hasil Konversi:</h2>
+                    <p id="convertedTemperature"></p>
+                    <p id="explanation"></p>
+                </div>            
         </div>
     </div>
 
