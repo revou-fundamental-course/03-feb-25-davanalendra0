@@ -31,5 +31,14 @@ body {
 }
 
 button {
-    margin-top: 20px;
+    margin-top: 5px;
+}
+
+#penjelasan {
+    border: 1px solid black;
+    font-family: Lato;
+    min-height: 100px;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 4px;
 }
