@@ -1,3 +1,35 @@
 body {
     background-color: #F2B28C;
 }
+
+.columns {
+    justify-content: center;
+    display: grid;
+}
+
+.input {
+    gap: 30px;
+    display: flex;
+}
+
+.input-group1{
+    display: flex;
+    gap: 168px;
+    padding-top: 30px;
+}
+
+.input-group2 {
+    display: flex;
+    gap: 178px;
+    padding-top: 10px;
+}
+
+.input-hasil {
+    display: flex;
+    gap: 100px;
+    padding-top: 29px;
+}
+
+button {
+    margin-top: 20px;
+}
